@@ -1,1 +1,143 @@
+body {
+    height: 100%;
+    margin: auto;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*border: 1px solid red;*/
+}
+.header {
+    height: 80px;
+    background-color: black;
+    /*position: fixed;*/
+    width: 100%;
+}
 
+.menu {
+    float: left;
+    margin-top: 15px;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+	color: yellow;
+}
+.profile {
+    float: right;
+    margin-top: 15px;
+    margin-right: 70px;
+}
+.profile-option{
+	position: relative;
+  display: inline-block;
+}
+.option-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.option-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.option-content a:hover {background-color: #ddd;}
+
+.profile-option:hover .option-content {display: block;}
+
+.img-profile{
+	width: 50px;
+	height: 50px;
+}
+.user-name{
+	float: right;
+	color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+/*############## content #############*/
+.content-welcome{
+  background-color: darkgrey;
+  height: 613px;
+  text-align: center;
+}
+.image-welcome{
+    margin-top: 120px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid silver;
+}
+.content-profile{
+  margin-top: -25px;
+  height: 450px;
+  background-color: silver;
+}
+.about-title{
+    text-align: center;
+    padding-top: 25px;
+    font-family: Arial;   
+}
+.about{
+    float: left;
+}
+.profile-image{
+  float: left;
+    width: 270px;
+    height: 300px;
+    padding: 10px 50px 0px 100px;
+}
+.profile-detail{
+    line-height: 2;
+    margin-right: 60px;
+}
+.portofolio{
+  margin-top: -25px;
+    background-color: darkgrey;
+    height: 320px;
+    padding-left: 120px;
+}
+.pf-title{
+    padding: 30px 0 0 0;
+    text-align: center;
+
+}
+.pf-card{
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 198px;
+    height: 160px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.pf-card:hover{
+    box-shadow: 5px 5px 5px silver;
+}
+
+.footer{
+    margin-top: -25px;
+    height: 60px;
+    background-color: #0e0e0b;
+}
+.footer p {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+}
